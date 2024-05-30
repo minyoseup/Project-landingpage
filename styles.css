@@ -91,5 +91,21 @@ ul {
 }
 
 .sectionthree {
+    display: flex;
+    flex-direction: column;
     background-color: #e5e7eb;
+    padding: 10px 70px; 
+}
+
+.sectionthree p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.sectionthree .quote {
+    font-size: 30px;
+    text-align: right;
+    
 }
