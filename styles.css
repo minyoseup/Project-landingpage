@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: roboto, sans-serif;
+    height: 100vh;
 
 }
 .header {
@@ -16,6 +17,7 @@ body {
 .herocontainer h1 {
     font-size: 48px;
 }
+
 .logo {
     display: flex;
     align-items: center;
@@ -79,6 +81,7 @@ ul {
 .feedback-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .feedback {
@@ -106,6 +109,47 @@ ul {
 
 .sectionthree .quote {
     font-size: 30px;
-    text-align: right;
-    
+    text-align: right;   
+}
+
+.sectionfour {
+    display: flex;
+    padding: 100px;
+}
+
+.sectionfourcontent {
+    background-color: #3882F6;
+    width: 60em;
+    padding: 1em;
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 2em;
+}
+
+.sectionbutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionbutton button {
+    padding: 10px;
+    border-radius: 1em;
+    border: 2px solid white;
+    background-color: #3882F6;
+    color: white;
+    width: 500%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 15px;
 }
